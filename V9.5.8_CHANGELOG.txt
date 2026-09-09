@@ -1,0 +1,6 @@
+V9.5.8 — Persistent Catalogue Menu Fix
+
+- Catalogue Bot main ReplyKeyboard is now explicitly persistent.
+- Menu remains available after navigating back/returning to the chat; /start is no longer required just to restore the menu.
+- one_time_keyboard is explicitly disabled.
+- Existing catalogue, delivery, migration, database, and bot-pool behavior is unchanged.
