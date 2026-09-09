@@ -1,0 +1,10 @@
+{
+  "name": "Video Vault",
+  "short_name": "Video Vault",
+  "description": "Video Vault catalogue",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#07080e",
+  "theme_color": "#07080e",
+  "orientation": "portrait-primary"
+}

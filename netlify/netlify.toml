@@ -1,0 +1,9 @@
+[build]
+  publish = "."
+
+# Netlify HTTPS -> VPS plain HTTP API proxy.
+[[redirects]]
+  from = "/api/*"
+  to = "http://hyder.visihost.in:5043/api/:splat"
+  status = 200
+  force = true
